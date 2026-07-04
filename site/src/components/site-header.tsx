@@ -22,8 +22,6 @@ const MAIN_LINKS: { href: string; label: string }[] = [
   { href: "/", label: "Αρχική" },
   { href: "/archive/", label: "Αρχείο" },
   { href: "/polls/", label: "Δημοσκοπήσεις" },
-  { href: "/links/", label: "Σύνδεσμοι" },
-  { href: "/contacts/", label: "Επικοινωνία" },
   { href: "/data/", label: "Δεδομένα" },
 ];
 
