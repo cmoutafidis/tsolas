@@ -1,0 +1,20 @@
+{
+  "id": 10,
+  "title": "Παράδειγμα FAQ  1",
+  "slug": "paradeigma-faq-1-10",
+  "sectionId": 3,
+  "sectionTitle": "FAQs",
+  "sectionSlug": "faqs-3",
+  "categoryId": 7,
+  "categoryTitle": "Παραδείγματα",
+  "categorySlug": "paradeigmata-7",
+  "date": "2004-01-01T00:00:00",
+  "created": "2006-12-29T00:00:00",
+  "published": true,
+  "state": 1,
+  "frontpage": false,
+  "hits": 71,
+  "excerpt": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed dia",
+  "html": "<p>\r\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,\r\nsed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam\r\nvoluptua. At\r\nvero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.\r\n</p>",
+  "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+}

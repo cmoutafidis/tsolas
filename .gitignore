@@ -1,0 +1,18 @@
+# Dependencies & build output
+node_modules/
+site/.next/
+site/out/
+.vercel/
+*.tsbuildinfo
+
+# Intermediate, regenerable data artifacts (produced by scripts/build_data.sh)
+export/
+site_content/
+
+# Raw database dump — contains the admin password hash and advertiser emails.
+# Kept OUT of the repo on purpose. Keep your local copy; do not publish it.
+medialoo_topos.sql
+
+# Misc
+.DS_Store
+*.log

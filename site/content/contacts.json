@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "name": "Name",
+    "position": "Position",
+    "address": "Street",
+    "telephone": "Telephone",
+    "email": "email@email.com",
+    "misc": "Miscellanous info",
+    "published": true
+  }
+]

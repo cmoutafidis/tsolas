@@ -1,0 +1,11 @@
+---
+title: "Activez-vous et diffuser ce message partout !"
+id: 230
+date: 2009-09-24T19:03:25
+section: "Ολυμπος"
+category: "Αρθρογραφία"
+published: true
+---
+
+# Activez-vous et diffuser ce message partout !
+Chers amis, Pour ceux qui aiment la nature, l’environnement et l’histoire grecque, et ceux qui viennent de recevoir ce message et ils ont quelque part entendu parler du Mont Olympe, nous vous prions de : lire ce message, visiter le site web pour l’Action Volontaire du Département de Pieria, signer la pétition concernant le décret sur les mesures à prendre pour protéger le Mont des Dieux, diffuser ce message partout dans la Grèce et le monde entier. Le Groupe d’Action Volontaire du Département de Pieria a lancé une nouvelle campagne pour rassembler des votes électroniques dans le but d’obtenir l’expansion du Parc National du Mont Olympe. Malheureusement, le Mont Olympe n’est pas légalement protégé comme il devrait l’être. Conformément au Décret de 1938, celui-ci est protégé seulement dans une étendue de 38.500 mètres carrés, ce qui correspond uniquement à une partie des sommets de la montagne et à son versant Est. Depuis 1985 jusqu’à aujourd’hui plusieurs procédures pour l’expansion de l’aire protégée du Mont Olympe sont en cours, sans toutefois qu’aucun projet pertinent soit mis en avant et reçoive un statut légal. Le projet le plus récent est appelé Special Environmental Projectis et il propose l’expansion du Parc National du Mont Olympe à 238.000 mètres carrés ; néanmoins, il reste oublié dans tiroirs de la bureaucratie grecque. Un des axes de notre campagne est de faire pression sur le Ministre de la Culture et celui de l’Environnement en leurs présentant des milliers des signatures lors du premier jour de leurs prise de fonction sous le nouveau gouvernement. Le Décret Présidentiel réévaluera et étendra le statu de protection du Mont Olympe, et c’est pour cette raison qu’il doit être accompli et promu immédiatement. Activez-vous et diffuser ce message partout ! Ne soyez pas indifférents ! Signer maintenant sur le site: http://www.medialoom.net/TOPOS/index.php?option=com_wrapper&Itemid=77 si vous avez des questions n’hésitez pas à nous contacter, si vous n’êtes pas d’accord, dites-nous pourquoi, toute nouvelle idée qui pourrait être proposée au Groupe d’Action Volontaire de Pieria est plus que bienvenue.

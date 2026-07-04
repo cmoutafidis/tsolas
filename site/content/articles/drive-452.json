@@ -1,0 +1,20 @@
+{
+  "id": 452,
+  "title": "Drive",
+  "slug": "drive-452",
+  "sectionId": 1,
+  "sectionTitle": "Ειδήσεις",
+  "sectionSlug": "eidiseis-1",
+  "categoryId": 1,
+  "categoryTitle": "Τελευταία",
+  "categorySlug": "teleytaia-1",
+  "date": "2010-09-02T08:56:10",
+  "created": "2010-09-02T08:57:10",
+  "published": false,
+  "state": 0,
+  "frontpage": false,
+  "hits": 0,
+  "excerpt": "",
+  "html": "<div style=\"background: none repeat scroll 0% 0% #000000; width: 440px; height: 272px\" align=\"center\">\r\n<embed src=\"http://www.metacafe.com/fplayer/4232700/drive_safely.swf\" flashvars=\"playerVars=showStats=no|autoPlay=no|\" wmode=\"transparent\" allowfullscreen=\"true\" allowscriptaccess=\"always\" name=\"Metacafe_4232700\" pluginspage=\"http://www.macromedia.com/go/getflashplayer\" type=\"application/x-shockwave-flash\" width=\"440\" height=\"272\"></embed>\r\n</div>\r\n<div style=\"font-size: 12px\">\r\n</div>",
+  "text": ""
+}

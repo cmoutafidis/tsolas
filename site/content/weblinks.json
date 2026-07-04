@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Joomla!",
+    "url": "http://www.joomla.org",
+    "description": "Ο επίσημος ιστότοπος του Joomla!",
+    "hits": 2,
+    "published": true
+  },
+  {
+    "id": 2,
+    "title": "php.net",
+    "url": "http://www.php.net",
+    "description": "The language that Joomla! is developed in",
+    "hits": 0,
+    "published": true
+  },
+  {
+    "id": 3,
+    "title": "MySQL",
+    "url": "http://www.mysql.com",
+    "description": "The database that Joomla! uses",
+    "hits": 0,
+    "published": true
+  },
+  {
+    "id": 4,
+    "title": "myJoomla",
+    "url": "http://www.opensourcematters.org",
+    "description": "Ιστότοπος υποστήριξης και ενημέρωσης στα ελληνικά.",
+    "hits": 2,
+    "published": true
+  },
+  {
+    "id": 5,
+    "title": "Joomla! - Forums",
+    "url": "http://forum.joomla.org",
+    "description": "Joomla! Forums",
+    "hits": 2,
+    "published": true
+  }
+]
