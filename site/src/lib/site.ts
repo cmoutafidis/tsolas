@@ -161,6 +161,9 @@ export function allArticleSlugs(): string[] {
   return index().articles.map((a) => a.slug);
 }
 
+export const getDownloadSizes = () =>
+  readJson<Record<string, number>>("downloads-manifest.json");
+
 export const getPolls = () => readJson<Poll[]>("polls.json");
 export const getContacts = () => readJson<Contact[]>("contacts.json");
 export const getWeblinks = () => readJson<Weblink[]>("weblinks.json");

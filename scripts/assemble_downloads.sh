@@ -22,6 +22,17 @@ cp "$ROOT/site_content/articles/"*.json  "$DL/json/"
 # Markdown zip
 ( cd "$ROOT/export" && zip -q -r -X "$DL/articles-markdown.zip" markdown )
 
+# Size manifest for the /data page (avoids a dynamic fs pattern at build time).
+fsize() { stat -f%z "$1" 2>/dev/null || stat -c%s "$1"; }
+MANIFEST="$ROOT/site/content/downloads-manifest.json"
+{
+  printf '{\n'
+  printf '  "articles.json": %s,\n'          "$(fsize "$DL/articles.json")"
+  printf '  "articles-markdown.zip": %s,\n'  "$(fsize "$DL/articles-markdown.zip")"
+  printf '  "articles.csv": %s\n'            "$(fsize "$DL/articles.csv")"
+  printf '}\n'
+} > "$MANIFEST"
+
 echo "downloads assembled:"
 echo "  whole-dataset: $(ls "$DL"/*.* | wc -l | tr -d ' ') files"
 echo "  per-article md:   $(ls "$DL/md"   | wc -l | tr -d ' ')"

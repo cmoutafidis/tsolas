@@ -1,29 +1,23 @@
-import fs from "node:fs";
-import path from "node:path";
 import type { Metadata } from "next";
 import { Download } from "lucide-react";
 import { Container, Crumbs, PageHeader } from "@/components/page";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
-import { counts } from "@/lib/site";
+import { counts, getDownloadSizes } from "@/lib/site";
 import { formatNumber } from "@/lib/format";
 
 export const metadata: Metadata = { title: "Λήψη δεδομένων" };
 
-function humanSize(file: string): string {
-  try {
-    const bytes = fs.statSync(path.join(process.cwd(), "public", "downloads", file)).size;
-    const units = ["B", "KB", "MB", "GB"];
-    let n = bytes;
-    let i = 0;
-    while (n >= 1024 && i < units.length - 1) {
-      n /= 1024;
-      i++;
-    }
-    return `${n.toFixed(n < 10 && i > 0 ? 1 : 0)} ${units[i]}`;
-  } catch {
-    return "";
+function humanSize(bytes: number | undefined): string {
+  if (!bytes) return "";
+  const units = ["B", "KB", "MB", "GB"];
+  let n = bytes;
+  let i = 0;
+  while (n >= 1024 && i < units.length - 1) {
+    n /= 1024;
+    i++;
   }
+  return `${n.toFixed(n < 10 && i > 0 ? 1 : 0)} ${units[i]}`;
 }
 
 const FILES: { file: string; title: string; desc: string }[] = [
@@ -46,6 +40,7 @@ const FILES: { file: string; title: string; desc: string }[] = [
 
 export default function DataPage() {
   const c = counts();
+  const sizes = getDownloadSizes();
   return (
     <Container>
       <Crumbs items={[{ label: "Λήψη δεδομένων" }]} />
@@ -63,7 +58,7 @@ export default function DataPage() {
 
       <div className="grid gap-4 sm:grid-cols-2">
         {FILES.map((f) => {
-          const size = humanSize(f.file);
+          const size = humanSize(sizes[f.file]);
           return (
             <Card key={f.file} className="flex flex-col">
               <CardHeader>
